@@ -1,7 +1,7 @@
 import React from 'react';
 
 function App() {
-  const value = 'DavidA';
+  const value = 'RGC Hackers';
   return <div>Hello {value}</div>;
 }
 
