@@ -42,7 +42,7 @@
   </body>
   <script>
     (async function() {
-        const { text } = await( await fetch(`/api/message`)).json();
+        const { text } = await( await fetch(`/api/message?name=DavidAAA`)).json();
         document.querySelector('#name').textContent = text;
     }());
     </script>
