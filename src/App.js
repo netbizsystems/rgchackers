@@ -1,8 +1,13 @@
+//
 import React from 'react';
 
 function App() {
-  const value = 'RGC Hackers';
-  return <div>Hello {value}</div>;
+  //console.log("Hello Dave Wtf?!");
+  return (
+    <div className="App">
+      <h1>Hello, world!</h1>
+      <p>This is a test alert from the App.js file.</p>
+    </div>
+  );
 }
-
 export default App;
