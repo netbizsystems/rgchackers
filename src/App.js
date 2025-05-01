@@ -2,7 +2,7 @@
 import React from 'react';
 
 function App() {
-  //console.log("Hello Dave Wtf?!");
+  console.log("Hello Dave Wtf?!");
   return (
     <div className="App">
       <h1>Hello, world!</h1>
